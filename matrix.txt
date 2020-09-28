@@ -1,0 +1,17 @@
+#penjumlahan
+matrix1 = [
+    [1,30,30],
+    [30,2,30],
+    [30,30,30]
+]
+
+matrix2 = [
+    [10,10,5],
+    [10,10,10],
+    [3,10,10]
+]
+
+for x in range(len(matrix1)):
+    for y in range(len(matrix1)):
+        print(matrix1[x][y]+matrix2[x][y], end=' ')
+    print()
